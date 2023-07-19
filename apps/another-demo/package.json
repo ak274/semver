@@ -1,0 +1,5 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "name": "another-demo",
+  "version": "0.0.1"
+}
