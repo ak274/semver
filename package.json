@@ -2,15 +2,20 @@
   "name": "@semver/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
   "private": true,
   "dependencies": {
+    "@jscutlery/semver": "^3.0.0",
     "@swc/helpers": "~0.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.14.5",
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-angular": "^17.0.0",
     "@nx/cypress": "16.4.3",
     "@nx/eslint-plugin": "16.4.3",
     "@nx/js": "16.4.3",
@@ -37,6 +42,7 @@
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
+    "husky": "^8.0.0",
     "jsdom": "~22.1.0",
     "nx": "16.4.3",
     "prettier": "^2.6.2",
