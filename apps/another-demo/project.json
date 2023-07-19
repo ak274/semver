@@ -76,7 +76,11 @@
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
-        "preset": "angular"
+        "preset": "angular",
+        "trackDeps": true,
+        "baseBranch": "master",
+        "push": true,
+        "noVerify": true
       }
     }
   },
