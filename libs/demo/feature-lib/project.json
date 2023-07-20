@@ -42,7 +42,7 @@
         "preset": "angular",
         "trackDeps": true,
         "baseBranch": "master",
-        "push": true,
+
         "noVerify": true
       }
     }
