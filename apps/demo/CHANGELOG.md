@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.6](https://github.com/ak274/semver/compare/demo-0.2.5...demo-0.2.6) (2023-07-20)
+
+
+### Bug Fixes
+
+* **demo:** :white_check_mark: updated the notes path in github executer ([297a2d3](https://github.com/ak274/semver/commit/297a2d3c147e8464cca55a9d673e8f502b6d6001))
+
+
+
 ## [0.2.5](https://github.com/ak274/semver/compare/demo-0.2.4...demo-0.2.5) (2023-07-20)
 
 
