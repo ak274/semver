@@ -80,7 +80,15 @@
         "trackDeps": true,
         "baseBranch": "master",
         "push": true,
-        "noVerify": true
+        "noVerify": true,
+        "postTargets": ["demo:github"]
+      }
+    },
+    "github": {
+      "executor": "@jscutlery/semver:github",
+      "options": {
+        "tag": "${tag}",
+        "notesFile": "./apps/demo/CHANGELOG.md"
       }
     }
   },
