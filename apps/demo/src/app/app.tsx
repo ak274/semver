@@ -7,7 +7,7 @@ import NxWelcome from './nx-welcome';
 export function App() {
   return (
     <div>
-      <NxWelcome title="demo" />
+      <NxWelcome title="Great Demo" />
       <SharedUi />
     </div>
   );
