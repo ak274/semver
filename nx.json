@@ -28,6 +28,16 @@
         "{workspaceRoot}/.eslintrc.json",
         "{workspaceRoot}/.eslintignore"
       ]
+    },
+    "version": {
+      "dependsOn": [
+        {
+          "target": "version",
+          "params": "forward",
+          "dependencies": true
+        }
+      ],
+      "inputs": ["default", "^production"]
     }
   },
   "namedInputs": {

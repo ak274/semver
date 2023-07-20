@@ -35,6 +35,16 @@
         "passWithNoTests": true,
         "reportsDirectory": "../../../coverage/libs/demo/feature-lib"
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "angular",
+        "trackDeps": true,
+        "baseBranch": "master",
+        "push": true,
+        "noVerify": true
+      }
     }
   }
 }
