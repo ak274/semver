@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.8](https://github.com/ak274/semver/compare/demo-0.2.7...demo-0.2.8) (2023-07-20)
+
+### Dependency Updates
+
+* `shared-ui` updated to version `0.0.2`
+
+
 ## [0.2.7](https://github.com/ak274/semver/compare/demo-0.2.6...demo-0.2.7) (2023-07-20)
 
 ### Dependency Updates
