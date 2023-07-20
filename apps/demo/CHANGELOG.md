@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.3](https://github.com/ak274/semver/compare/demo-0.2.2...demo-0.2.3) (2023-07-20)
+
+
+### Bug Fixes
+
+* **demo:** :bug: added options as empty object ([1206854](https://github.com/ak274/semver/commit/1206854eebd1f128dd66b83ce8f9c1d2c8f0aa2a))
+
+
+
 ## [0.2.2](https://github.com/ak274/semver/compare/demo-0.2.1...demo-0.2.2) (2023-07-20)
 
 
