@@ -2,6 +2,14 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.3](https://github.com/ak274/semver/compare/another-demo-0.2.2...another-demo-0.2.3) (2023-07-20)
+
+### Dependency Updates
+
+* `demo-feature-lib` updated to version `0.1.0`
+* `shared-ui` updated to version `0.0.1`
+
+
 ## [0.2.2](https://github.com/ak274/semver/compare/another-demo-0.2.1...another-demo-0.2.2) (2023-07-20)
 
 ### Dependency Updates
