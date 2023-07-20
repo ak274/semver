@@ -88,7 +88,7 @@
       "executor": "@jscutlery/semver:github",
       "options": {
         "tag": "${tag}",
-        "notesFile": "./apps/demo/CHANGELOG.md"
+        "notesFile": "${notes}"
       }
     }
   },
