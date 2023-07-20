@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.4](https://github.com/ak274/semver/compare/demo-0.2.3...demo-0.2.4) (2023-07-20)
+
+
+### Reverts
+
+* **demo:** :memo: revert changes back to default ([adb4352](https://github.com/ak274/semver/commit/adb4352616e988c99547ac3a7d74a95a0473dd7e))
+
+
+
 ## [0.2.3](https://github.com/ak274/semver/compare/demo-0.2.2...demo-0.2.3) (2023-07-20)
 
 
