@@ -85,11 +85,7 @@
       }
     },
     "github": {
-      "executor": "@jscutlery/semver:github",
-      "options": {
-        "tag": "${tag}",
-        "notesFile": "${notes}"
-      }
+      "executor": "@jscutlery/semver:github"
     }
   },
   "tags": []
