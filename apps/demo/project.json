@@ -77,11 +77,13 @@
       "executor": "@jscutlery/semver:version",
       "options": {
         "preset": "angular",
-        "trackDeps": true,
-        "baseBranch": "master",
         "push": true,
+        "commitMessageFormat": "chore({projectName}): release version ${version} [skip ci]",
+        "baseBranch": "master",
         "noVerify": true,
-        "postTargets": ["demo:github"]
+        "postTargets": ["demo:githab"],
+        "releaseAs": "preminor",
+        "preid": "beta"
       }
     },
     "github": {

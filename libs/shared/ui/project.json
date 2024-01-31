@@ -42,8 +42,10 @@
         "preset": "angular",
         "trackDeps": true,
         "baseBranch": "master",
-
-        "noVerify": true
+        "push": false,
+        "noVerify": true,
+        "skipCommit": true,
+        "skipProjectChangelog": true
       }
     }
   }
