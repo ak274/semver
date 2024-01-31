@@ -8,7 +8,7 @@ import { SharedUi } from '@semver/shared/ui';
 export function App() {
   return (
     <div>
-      <NxWelcome title="another-demo" />
+      <NxWelcome title="another-demo-1" />
       <DemoFeatureLib />
       <SharedUi />
     </div>
