@@ -81,7 +81,7 @@
         "commitMessageFormat": "chore({projectName}): release version ${version} [skip ci]",
         "baseBranch": "master",
         "noVerify": true,
-        "postTargets": ["demo:githab"],
+        "postTargets": ["demo:github"],
         "releaseAs": "preminor",
         "preid": "beta"
       }
