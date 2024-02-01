@@ -20,6 +20,15 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 
 
+# [0.3.0-beta.0](https://github.com/ak274/semver/compare/demo-0.3.0-beta.0...demo-0.3.0-beta.0) (2024-02-01)
+
+
+### Bug Fixes
+
+* **all:** :bug: removed postTarget for simplicity ([9729b54](https://github.com/ak274/semver/commit/9729b54fc3956a981f0a5df0412c2fcccb46452e))
+
+
+
 # [0.3.0-beta.0](https://github.com/ak274/semver/compare/demo-0.3.0-beta.0...demo-0.3.0-beta.0) (2024-01-31)
 
 
