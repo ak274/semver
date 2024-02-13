@@ -6,7 +6,7 @@ export interface DemoFeatureLibProps {}
 export function DemoFeatureLib(props: DemoFeatureLibProps) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to Demo Feature Lib(First feature)!</h1>
+      <h1>Welcome to Demo Feature Lib(First)!</h1>
     </div>
   );
 }
