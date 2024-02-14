@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [0.9.0-beta.3](https://github.com/ak274/semver/compare/demo-0.9.0-beta.2...demo-0.9.0-beta.3) (2024-02-14)
+
+
+### Features
+
+* **shared:** :arrow_up: added new feature ([f5f0445](https://github.com/ak274/semver/commit/f5f0445eb96bb76ba795b9b8c1fcbe4258647f3b))
+
+
+
 # [0.9.0-beta.2](https://github.com/ak274/semver/compare/demo-0.9.0-beta.1...demo-0.9.0-beta.2) (2024-02-14)
 
 
