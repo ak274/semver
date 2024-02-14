@@ -76,9 +76,10 @@
         "preset": "angular",
         "push": true,
         "commitMessageFormat": "chore({projectName}): release version ${version} [skip ci]",
-        "baseBranch": "master",
+        "baseBranch": "HEAD:develop",
         "noVerify": true,
-        "releaseAs": "preminor",
+        "releaseAs": "prerelease",
+        "trackDeps": true,
         "preid": "beta"
       }
     },
