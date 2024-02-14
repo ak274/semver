@@ -77,7 +77,9 @@
         "push": true,
         "commitMessageFormat": "chore({projectName}): release version ${version} [skip ci]",
         "baseBranch": "master",
-        "noVerify": true
+        "noVerify": true,
+        "releaseAs": "preminor",
+        "preid": "beta"
       }
     },
     "github": {
