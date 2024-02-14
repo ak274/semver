@@ -6,7 +6,7 @@ export interface SharedUiProps {}
 export function SharedUi(props: SharedUiProps) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to SharedUi(Latest Fix #3)!</h1>
+      <h1>Welcome to SharedUi(Latest Fix #4)!</h1>
     </div>
   );
 }
