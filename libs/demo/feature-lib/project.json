@@ -6,11 +6,8 @@
   "tags": [],
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["libs/demo/feature-lib/**/*.{ts,tsx,js,jsx}"]
-      }
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
     },
     "build": {
       "executor": "@nx/vite:build",
@@ -30,7 +27,7 @@
     },
     "test": {
       "executor": "@nx/vite:test",
-      "outputs": ["coverage/libs/demo/feature-lib"],
+      "outputs": ["{workspaceRoot}/coverage/libs/demo/feature-lib"],
       "options": {
         "passWithNoTests": true,
         "reportsDirectory": "../../../coverage/libs/demo/feature-lib"

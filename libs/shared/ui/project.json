@@ -6,11 +6,8 @@
   "tags": [],
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["libs/shared/ui/**/*.{ts,tsx,js,jsx}"]
-      }
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
     },
     "build": {
       "executor": "@nx/vite:build",
@@ -30,7 +27,7 @@
     },
     "test": {
       "executor": "@nx/vite:test",
-      "outputs": ["coverage/libs/shared/ui"],
+      "outputs": ["{workspaceRoot}/coverage/libs/shared/ui"],
       "options": {
         "passWithNoTests": true,
         "reportsDirectory": "../../../coverage/libs/shared/ui"
