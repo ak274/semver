@@ -76,7 +76,7 @@
         "preset": "angular",
         "push": true,
         "commitMessageFormat": "chore({projectName}): release version ${version} [skip ci]",
-        "baseBranch": "HEAD:develop",
+        "baseBranch": "master",
         "noVerify": true,
         "releaseAs": "prerelease",
         "trackDeps": true,
