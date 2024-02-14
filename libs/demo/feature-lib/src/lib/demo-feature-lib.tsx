@@ -7,6 +7,7 @@ export function DemoFeatureLib(props: DemoFeatureLibProps) {
   return (
     <div className={styles['container']}>
       <h1>Welcome to Demo Feature Lib(First)!</h1>
+      <p>Fixed a bug</p>
     </div>
   );
 }
